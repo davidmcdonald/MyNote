@@ -45,4 +45,5 @@ RESOURCES += \
 
 DISTFILES += \
     docs/README \
-    docs/TODO.txt
+    docs/TODO.txt \
+    .gitignore
