@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>408</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyNote</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/img/Images/Note.png</normaloff>:/img/Images/Note.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTextEdit" name="mainTextEdit">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(211, 215, 207);</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>700</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(186, 189, 182);</string>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCut"/>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="actionSelect_All"/>
+    <addaction name="separator"/>
+    <addaction name="actionUndo"/>
+    <addaction name="actionRedo"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+    <addaction name="separator"/>
+    <addaction name="actionVisit_Developer_s_Site"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(211, 215, 207);</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNew"/>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="actionSave_As"/>
+   <addaction name="separator"/>
+   <addaction name="actionSelect_Font"/>
+   <addaction name="actionCut"/>
+   <addaction name="actionCopy"/>
+   <addaction name="actionPaste"/>
+   <addaction name="actionUndo"/>
+   <addaction name="actionRedo"/>
+   <addaction name="separator"/>
+   <addaction name="actionAbout"/>
+   <addaction name="actionFaceBook"/>
+   <addaction name="actionTwitter"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/New.png</normaloff>:/img/Images/New.png</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Open.png</normaloff>:/img/Images/Open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Save.png</normaloff>:/img/Images/Save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/SaveAs.png</normaloff>:/img/Images/SaveAs.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save As...</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Exit.png</normaloff>:/img/Images/Exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionCut">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Cut.png</normaloff>:/img/Images/Cut.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cut</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+X</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Copy.png</normaloff>:/img/Images/Copy.png</iconset>
+   </property>
+   <property name="text">
+    <string>Copy</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Paste.png</normaloff>:/img/Images/Paste.png</iconset>
+   </property>
+   <property name="text">
+    <string>Paste</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="actionSelect_All">
+   <property name="text">
+    <string>Select All</string>
+   </property>
+  </action>
+  <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Undo.png</normaloff>:/img/Images/Undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Undo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionRedo">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Redo.png</normaloff>:/img/Images/Redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Redo</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Z</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/About.png</normaloff>:/img/Images/About.png</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionFaceBook">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Facebook.png</normaloff>:/img/Images/Facebook.png</iconset>
+   </property>
+   <property name="text">
+    <string>FaceBook</string>
+   </property>
+   <property name="toolTip">
+    <string>Visit me on FaceBook</string>
+   </property>
+  </action>
+  <action name="actionTwitter">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Twitter.png</normaloff>:/img/Images/Twitter.png</iconset>
+   </property>
+   <property name="text">
+    <string>Twitter</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Visit me on Twitter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </action>
+  <action name="actionSelect_Font">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Fonts.png</normaloff>:/img/Images/Fonts.png</iconset>
+   </property>
+   <property name="text">
+    <string>Select Font</string>
+   </property>
+  </action>
+  <action name="actionVisit_Developer_s_Site">
+   <property name="text">
+    <string>Visit Developer's Site</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>mainTextEdit</tabstop>
+ </tabstops>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,15 @@
+Add headers for opening default web browser to a specific url
+#include <QDesktopServices>
+#include <QUrl>
+
+Use following code
+QDesktopServices::openUrl(QUrl("https://qt.io/"));
+
+Add code to the following
+MainWindow::on_actionAbout_triggered() **COMPLETED**
+MainWindow::on_actionOpen_triggered()  **COMPLETED, Needs tweaking for formatting**
+MainWindow::on_actionSave_triggered()  **COMPLETED**
+MainWindow::on_actionSave_As_triggered()  **COMPLETED**
+MainWindow::on_actionSelect_Font_triggered()  **COMPLETED**
+MainWindow::on_actionFaceBook_triggered() ** Update link before final release **
+MainWindow::on_actionTwitter_triggered() ** Update link before final release **
