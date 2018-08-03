@@ -22,7 +22,7 @@
     <item>
      <widget class="QTextEdit" name="mainTextEdit">
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(211, 215, 207);</string>
+       <string notr="true"/>
       </property>
      </widget>
     </item>

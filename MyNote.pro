@@ -44,6 +44,6 @@ RESOURCES += \
     resources.qrc
 
 DISTFILES += \
-    docs/README \
     docs/TODO.txt \
-    .gitignore
+    .gitignore \
+    README.md

@@ -15,6 +15,9 @@ public:
   explicit AboutMyNote(QWidget *parent = nullptr);
   ~AboutMyNote();
 
+private slots:
+  void on_pushButton_clicked();
+
 private:
   Ui::AboutMyNote *ui;
 };
