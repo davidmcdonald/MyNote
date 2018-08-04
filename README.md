@@ -1,7 +1,7 @@
 # Welcome to MyNote
 ---
 
-**MyNote** is a simple notepad like application that allows you take notes and save them to your hard on your PC. MyNote is cross
+**MyNote** is a simple notepad like application that allows you take notes and save them to your hard drive on your PC. MyNote is cross
 platform  and can be downloaded to run on **Linux** or **Wndows**.
 
 **MyNote** is small in size and uses very little resources so it doesn't put a strain on your system or take up a lot of memory. MyNote
