@@ -146,13 +146,13 @@ void MainWindow::on_actionSave_As_triggered()
 void MainWindow::on_actionFaceBook_triggered()
 {
     // Opens default web browser and takes user to authors FaceBook page
-    QDesktopServices::openUrl(QUrl("https://www.facebook.com/davebmcd"));
+    QDesktopServices::openUrl(QUrl("https://www.facebook.com/groups/futuredevsnow/"));
 }
 
 void MainWindow::on_actionTwitter_triggered()
 {
     // Opens default web browser and takes user to authors twitter page
-    QDesktopServices::openUrl(QUrl("https://twitter.com/ItsJustDaveTn"));
+    //QDesktopServices::openUrl(QUrl("Add Twitter link here"));
 }
 
 void MainWindow::on_actionSelect_Font_triggered()
