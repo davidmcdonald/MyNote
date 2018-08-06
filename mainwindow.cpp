@@ -8,12 +8,14 @@
 #include <QFileDialog>
 #include <QMessageBox>
 #include <QFontDialog>
+#include <QDir>
 
 MainWindow::MainWindow(QWidget *parent) :
   QMainWindow(parent),
 ui(new Ui::MainWindow)
 {
   ui->setupUi(this);
+
 
   //set mainTextEdit widget to be empty upon startup
   ui->mainTextEdit->setText("");
@@ -145,7 +147,7 @@ void MainWindow::on_actionSave_As_triggered()
 
 void MainWindow::on_actionFaceBook_triggered()
 {
-    // Opens default web browser and takes user to authors FaceBook page
+    // Opens default web browser and takes user to authors FaceBook group
     QDesktopServices::openUrl(QUrl("https://www.facebook.com/groups/futuredevsnow/"));
 }
 
@@ -169,3 +171,4 @@ void MainWindow::on_actionVisit_Developer_s_Site_triggered()
     // Go to the developers website
     QDesktopServices::openUrl(QUrl("https://github.com/davidmcdonald/MyNote"));
 }
+

@@ -50,6 +50,8 @@ private slots:
 
   void on_actionVisit_Developer_s_Site_triggered();
 
+  void on_actionManual_triggered();
+
 private:
   Ui::MainWindow *ui;
   QString currentFile;

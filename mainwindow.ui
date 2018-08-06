@@ -290,6 +290,11 @@
     <string>Visit Developer's Site</string>
    </property>
   </action>
+  <action name="actionManual">
+   <property name="text">
+    <string>Manual</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <tabstops>
