@@ -172,3 +172,8 @@ void MainWindow::on_actionVisit_Developer_s_Site_triggered()
     QDesktopServices::openUrl(QUrl("https://github.com/davidmcdonald/MyNote"));
 }
 
+void MainWindow::on_actionManual_triggered()
+{
+  // Opens PDF Manual from "Help" menu or fromIcon on toolbar
+  QDesktopServices::openUrl(QUrl::fromLocalFile(qApp->applicationDirPath() + "/docs/" + "MyNoteDoc.pdf"));
+}

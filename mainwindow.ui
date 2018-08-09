@@ -70,6 +70,7 @@
     <addaction name="actionAbout"/>
     <addaction name="separator"/>
     <addaction name="actionVisit_Developer_s_Site"/>
+    <addaction name="actionManual"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
@@ -98,6 +99,7 @@
    <addaction name="actionRedo"/>
    <addaction name="separator"/>
    <addaction name="actionAbout"/>
+   <addaction name="actionManual"/>
    <addaction name="actionFaceBook"/>
    <addaction name="actionTwitter"/>
   </widget>
@@ -291,6 +293,10 @@
    </property>
   </action>
   <action name="actionManual">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/img/Images/Manual.png</normaloff>:/img/Images/Manual.png</iconset>
+   </property>
    <property name="text">
     <string>Manual</string>
    </property>
