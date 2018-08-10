@@ -16,7 +16,6 @@ ui(new Ui::MainWindow)
 {
   ui->setupUi(this);
 
-
   //set mainTextEdit widget to be empty upon startup
   ui->mainTextEdit->setText("");
 

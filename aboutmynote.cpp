@@ -18,5 +18,4 @@ AboutMyNote::~AboutMyNote()
 void AboutMyNote::on_pushButton_clicked()
 {
     QDesktopServices::openUrl(QUrl("https://github.com/davidmcdonald/MyNote"));
-
 }
