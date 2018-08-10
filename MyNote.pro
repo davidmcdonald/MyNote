@@ -44,6 +44,6 @@ RESOURCES += \
     resources.qrc
 
 DISTFILES += \
-    docs/TODO.txt \
     .gitignore \
-    README.md
+    README.md \
+    docs/MyNoteDoc.pdf

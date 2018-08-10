@@ -174,6 +174,6 @@ void MainWindow::on_actionVisit_Developer_s_Site_triggered()
 
 void MainWindow::on_actionManual_triggered()
 {
-  // Opens PDF Manual from "Help" menu or fromIcon on toolbar
+  // Opens PDF Manual from "Help" menu or from Icon on toolbar
   QDesktopServices::openUrl(QUrl::fromLocalFile(qApp->applicationDirPath() + "/docs/" + "MyNoteDoc.pdf"));
 }

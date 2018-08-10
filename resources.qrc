@@ -16,6 +16,7 @@
         <file>Images/Twitter.png</file>
         <file>Images/Fonts.png</file>
         <file>Images/Manual.png</file>
+        <file>Images/WebLink.png</file>
     </qresource>
     <qresource prefix="/">
         <file>Images/Manual.png</file>
