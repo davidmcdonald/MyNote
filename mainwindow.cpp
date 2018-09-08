@@ -150,12 +150,6 @@ void MainWindow::on_actionFaceBook_triggered()
     QDesktopServices::openUrl(QUrl("https://www.facebook.com/groups/futuredevsnow/"));
 }
 
-void MainWindow::on_actionTwitter_triggered()
-{
-    // Opens default web browser and takes user to authors twitter page
-    //QDesktopServices::openUrl(QUrl("Add Twitter link here"));
-}
-
 void MainWindow::on_actionSelect_Font_triggered()
 {
     // Select font for text when clicked

@@ -44,8 +44,6 @@ private slots:
 
   void on_actionFaceBook_triggered();
 
-  void on_actionTwitter_triggered();
-
   void on_actionSelect_Font_triggered();
 
   void on_actionVisit_Developer_s_Site_triggered();

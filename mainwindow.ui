@@ -102,7 +102,6 @@
    <addaction name="actionAbout"/>
    <addaction name="actionManual"/>
    <addaction name="actionFaceBook"/>
-   <addaction name="actionTwitter"/>
   </widget>
   <widget class="QStatusBar" name="statusBar">
    <property name="autoFillBackground">
@@ -259,24 +258,6 @@
    </property>
    <property name="shortcutVisibleInContextMenu">
     <bool>true</bool>
-   </property>
-  </action>
-  <action name="actionTwitter">
-   <property name="icon">
-    <iconset resource="resources.qrc">
-     <normaloff>:/img/Images/Twitter.png</normaloff>:/img/Images/Twitter.png</iconset>
-   </property>
-   <property name="text">
-    <string>Twitter</string>
-   </property>
-   <property name="toolTip">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Visit me on Twitter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-   <property name="visible">
-    <bool>false</bool>
-   </property>
-   <property name="iconVisibleInMenu">
-    <bool>false</bool>
    </property>
   </action>
   <action name="actionSelect_Font">
